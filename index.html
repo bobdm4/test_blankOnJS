@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>blank</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4b3c84167.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+    <section id="info" class="info wrapper">
+        <div class="left">
+            <div class="left__footer">
+                <ul>
+                    <li><a href="#info">info</a></li>
+                    <li><a href="#question">question</a></li>
+                    <li><a href="#form">form</a></li>
+                    <li>название4</li>
+                    <li>очень длинное название5</li>
+                    <li>очень очень длинноу название6</li>
+                    <li>длинное название7</li>
+                    <li>длинное название8</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right__wrapper">
+            <div class="right__heart">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="right">
+                <h2 class="right__title">Lorem ipsum</h2>
+                <p class="right__descriotion">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing. Vero, debitis!
+                </p>
+                <p class="right__text">Lorem ipsum?</p>
+                <button type="button" class="right__button"><a href="#question">Начать</a></button>
+            </div>
+        </div>
+    </section>
+    <section id="question" class="question wrapper">
+        <div class="left">
+            <div id="percent"></div>
+            <div class="left__footer">
+                <ul>
+                    <li><a href="#info">info</a></li>
+                    <li><a href="#question">question</a></li>
+                    <li><a href="#form">form</a></li>
+                    <li><a href="#">название4</a></li>
+                    <li><a href="#">очень длинное название5</a></li>
+                    <li><a href="#">очень очень длинноу название6</a></li>
+                    <li><a href="#">длинное название7</a></li>
+                    <li><a href="#">длинное название8</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right__wrapper">
+            <div class="right">
+                <div class="right__heart">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h2 class="right__title">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. In voluptatem amet autem!
+                </h2>
+                <form class="tabs" id="tabs" action="">
+                    <input id="tab1" value="answer1" type="radio" name="tabs">
+                    <label for="tab1">Вариант А</label>
+
+                    <input id="tab2" value="answer2" type="radio" name="tabs">
+                    <label for="tab2">Вариант Б</label>
+
+                    <input id="tab3" value="answer3" type="radio" name="tabs">
+                    <label for="tab3">Вариант В</label>
+
+                    <a href="#form">Продолжить</a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="form" class="form wrapper">
+        <div class="left">
+            <div class="left__footer">
+                <ul>
+                    <li><a href="#info">info</a></li>
+                    <li><a href="#question">question</a></li>
+                    <li><a href="#form">form</a></li>
+                    <li><a href="#">название4</a></li>
+                    <li><a href="#">очень длинное название5</a></li>
+                    <li><a href="#">очень очень длинноу название6</a></li>
+                    <li><a href="#">длинное название7</a></li>
+                    <li><a href="#">длинное название8</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right__wrapper">
+            <div class="right">
+                <div class="right__heart">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h2 class="right__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, quam?
+                </h2>
+                <form class="form_content" action="">
+                    <p class="form_content__text">Я ищу:</p>
+                    <div class="form_content__checkbox_tabs">
+                        <input id="gender1" value="male" type="radio" name="tabs">
+                        <label for="gender1"><i class="fas fa-male"></i>Вариант 1</label>
+
+                        <input id="gender2" value="female" type="radio" name="tabs">
+                        <label for="gender2"><i class="fas fa-female"></i>Вариант 2</label>
+                    </div>
+                    <label class="form_content__text" for="name">Ваше имя:</label>
+                    <input class="form_content__input" type="text" id="name" minlength="3" placeholder="bob" required/>
+                    <label class="form_content__text" for="email">Email:</label>
+                    <input class="form_content__input" type="email" id="email" placeholder="expample@abc.com" required/>
+                    <label class="form_content__text" for="password">Придумайте пароль:</label>
+                    <input class="form_content__input" minlength="6" maxlength="15" type="password" placeholder="******" id="password" required />
+                    <div class="form_content__checkbox_container">
+                        <input type="checkbox" name="confirm" id="confirm" checked required>
+                        </input>
+                        <label class="form_content__checkbox" for="confirm">Регистрируясь, вы подтверждаете, что вам уже исполнилось 18 лет и вы ознакомились с условиями пользования сайтом.</label>
+                    </div>
+                    <button class="form_content__button" id="register" type="submit">Продолжить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
